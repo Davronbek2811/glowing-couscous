@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <header>
+        <div class="container navbar">
+            <h3>Where in the world?</h3>
+            <button id="themeToggle">☀️/🌙</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="container section-1">
+            <div class="input">
+                <img src="./img/search.svg" alt="search">
+                <input class="search" type="search" placeholder="Search for a country…">
+            </div>
+        </section>
+        <section class="container">
+            <div class="boxer" id="boxer"></div>
+        </section>
+    </main>
+</body>
+<script src="./index.js"></script>
+</html>
